@@ -1,6 +1,6 @@
 # 🌀 blue-objects
 
-🌀 `blue-objects` is an abstraction for objects that are accessible in Python and Bash on ALL machines. For example, `@geo` outputs are `object` and AI without objects is like walking without steps.
+🌀 `blue-objects` is an abstraction for cloud objects that are accessible in Python and Bash. For example, 🌐`@geo watch` [outputs are `object`s](https://github.com/kamangir/blue-geo/tree/main/blue_geo/watch).
 
 ## installation
 
