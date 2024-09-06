@@ -21,4 +21,9 @@ function blue_objects_action_git_before_push() {
 python3 -m blue_objects version \
     --show_icon 1
 
-# source $(dirname "$(realpath "${BASH_SOURCE[0]}")")/logging.sh
+source $(dirname "$(realpath "${BASH_SOURCE[0]}")")/download.sh
+source $(dirname "$(realpath "${BASH_SOURCE[0]}")")/file.sh
+source $(dirname "$(realpath "${BASH_SOURCE[0]}")")/objects.sh
+source $(dirname "$(realpath "${BASH_SOURCE[0]}")")/publish.sh
+source $(dirname "$(realpath "${BASH_SOURCE[0]}")")/select.sh
+source $(dirname "$(realpath "${BASH_SOURCE[0]}")")/upload.sh
