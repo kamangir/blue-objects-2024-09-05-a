@@ -1,6 +1,6 @@
 # 🌀 blue-objects
 
-🌀 `blue-objects` is an abstraction for cloud objects that are accessible in Python and Bash. For example, Sentinel-2 [datacubes](https://github.com/kamangir/blue-geo/tree/main/blue_geo/datacube), such as `datacube-EarthSearch-sentinel_2_l1c-S2A_10UDC_20240731_0_L1C`, and 🌐 [`@geo watch`  outputs](https://github.com/kamangir/blue-geo/tree/main/blue_geo/watch) are objects.
+🌀 `blue-objects` is an abstraction for data objects that are accessible in Python and Bash. For example, Sentinel-2 [datacubes](https://github.com/kamangir/blue-geo/tree/main/blue_geo/datacube), such as `datacube-EarthSearch-sentinel_2_l1c-S2A_10UDC_20240731_0_L1C`, and 🌐 [`@geo watch`  outputs](https://github.com/kamangir/blue-geo/tree/main/blue_geo/watch) are objects.
 
 ## installation
 
@@ -49,6 +49,7 @@ def map_function(
 
     logger.info("🪄")
 
+    return True
 ```
 
 from [`blue_geo/watch/workflow/map.py`](https://github.com/kamangir/blue-geo/blob/main/blue_geo/watch/workflow/map.py).
